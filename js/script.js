@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
         clearInterval(interval);
         loader.style.display = "none";
         homePage.style.display = "block";
-    }, 3400); // Display preloader for 12 seconds (12 greetings * 2 seconds each)
+    }, 3400); 
 });
 /*cursor*/
 const cursor = document.createElement('div');
