@@ -38,19 +38,6 @@ document.querySelectorAll('.button, .icon, .skill-bar, .service-box').forEach((e
     cursor.classList.remove('pointer-svg');
   });
 });
-/* circle button*/
-document.addEventListener("DOMContentLoaded", function() {
-    const text = document.querySelector('.text p');
-    const chars = text.innerText.split('');
-    text.innerHTML = ''; // Clear the text content
-
-    chars.forEach((char, i) => {
-        const span = document.createElement('span');
-        span.style.transform = `rotate(${i * (360 / chars.length)}deg)`;
-        span.textContent = char;
-        text.appendChild(span);
-    });
-});
 /*menu*/
 document.addEventListener('DOMContentLoaded', () => {
     let menuIcon = document.querySelector('#menu-icon');
