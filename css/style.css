@@ -1149,4 +1149,219 @@ input[type="number"] {
         font-size: 14px; /* Adjust font size for copyright text */
     }
 }
+/* For screens with max-width: 400px */
+@media (max-width: 400px) {
+    html {
+        font-size: 45%;
+    }
+
+    .home-content h1 {
+        font-size: 3.2rem;
+    }
+
+    .home-content h3 {
+        font-size: 2.2rem;
+    }
+
+    .home-content p {
+        font-size: 1.2rem;
+    }
+
+    .social-icon a {
+        width: 2.5rem;
+        height: 2.5rem;
+        font-size: 1.4rem;
+        margin: 1.5rem 0.5rem 1.5rem 0;
+    }
+
+    .btn {
+        padding: 0.6rem 1.6rem;
+        font-size: 1.2rem;
+    }
+
+    .home {
+        margin: 20px;
+    }
+
+    .home-img img {
+        box-shadow: 0 0 10px var(--main-color);
+    }
+
+    .service-box {
+        padding: 1.5rem 0.5rem; /* Adjust padding */
+        margin-bottom: 2.5rem;
+    }
+
+    .service-box h3 {
+        font-size: 2rem;
+    }
+
+    .service-box p {
+        font-size: 1.4rem;
+    }
+
+    .skills .container {
+        padding: 0.8rem; /* Further reduced padding */
+    }
+
+    .skills .container .row {
+        grid-template-columns: repeat(1, 1fr); /* 1 bar in a row for very small screens */
+    }
+
+    .education .timeline {
+        padding: 0 5px; /* Further reduced padding */
+    }
+
+    .education .container {
+        padding: 5px 10px; /* Adjust padding */
+    }
+
+    .education .container::after {
+        right: -5px; /* Adjust position of the timeline marker */
+    }
+
+    .education .content {
+        padding: 0.8rem; /* Reduce padding in content */
+    }
+
+    .contact form {
+        padding: 0 0.5rem; /* Adjust horizontal padding */
+    }
+
+    .contact form .input-box input,
+    .contact form textarea {
+        font-size: 1.2rem; /* Further reduced font size */
+    }
+
+    .footer {
+        padding: 15px 0; /* Adjust padding */
+    }
+
+    .footer .social a {
+        font-size: 18px; /* Adjust icon size */
+        width: 30px; /* Adjust button size */
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .footer ul {
+        font-size: 14px; /* Adjust font size */
+    }
+
+    .footer ul li {
+        padding: 0 8px; /* Adjust spacing for list items */
+    }
+
+    .footer .copyright {
+        font-size: 12px; /* Adjust font size */
+    }
+}
+
+/* For screens with max-width: 320px */
+@media (max-width: 320px) {
+    html {
+        font-size: 40%;
+    }
+
+    .home-content h1 {
+        font-size: 2.8rem;
+    }
+
+    .home-content h3 {
+        font-size: 1.8rem;
+    }
+
+    .home-content p {
+        font-size: 1rem;
+    }
+
+    .social-icon a {
+        width: 2rem;
+        height: 2rem;
+        font-size: 1.2rem;
+        margin: 1rem 0.5rem;
+    }
+
+    .btn {
+        padding: 0.5rem 1.4rem;
+        font-size: 1rem;
+    }
+
+    .home {
+        margin: 10px;
+    }
+
+    .home-img img {
+        box-shadow: 0 0 8px var(--main-color);
+    }
+
+    .service-box {
+        padding: 1rem 0.5rem; /* Further adjust padding */
+        margin-bottom: 2rem;
+    }
+
+    .service-box h3 {
+        font-size: 1.8rem;
+    }
+
+    .service-box p {
+        font-size: 1.2rem;
+    }
+
+    .skills .container {
+        padding: 0.5rem; /* Minimal padding */
+    }
+
+    .skills .container .row {
+        grid-template-columns: 1fr; /* Stack items vertically */
+    }
+
+    .education .timeline {
+        padding: 0 5px; /* Minimal padding */
+    }
+
+    .education .container {
+        padding: 5px; /* Minimal padding */
+    }
+
+    .education .container::after {
+        right: -5px; /* Adjust position of the timeline marker */
+    }
+
+    .education .content {
+        padding: 0.5rem; /* Minimal padding */
+    }
+
+    .contact form {
+        padding: 0 0.5rem; /* Minimal horizontal padding */
+    }
+
+    .contact form .input-box input,
+    .contact form textarea {
+        font-size: 1rem; /* Smallest font size */
+    }
+
+    .footer {
+        padding: 10px 0; /* Minimal padding */
+    }
+
+    .footer .social a {
+        font-size: 16px; /* Smaller icon size */
+        width: 28px; /* Smaller button size */
+        height: 28px;
+        line-height: 28px;
+    }
+
+    .footer ul {
+        font-size: 12px; /* Smaller font size */
+    }
+
+    .footer ul li {
+        padding: 0 5px; /* Minimal spacing */
+    }
+
+    .footer .copyright {
+        font-size: 10px; /* Smallest font size */
+    }
+}
 
