@@ -599,7 +599,6 @@ span {
 #card5 {
     background-image: url(cb/cb5.jpg);
 }
-
 /* Responsive Text Sizes */
 @media (max-width: 1200px) {
     .card {
@@ -607,10 +606,10 @@ span {
         height: 350px;
     }
     .card:hover{
-        width: 370px;
+        width: 240px;
     }
     .card-text {
-        font-size: 50px; /* Adjust text size for larger screens */
+        font-size: 45px; /* Adjust text size for larger screens */
     }
 }
 
@@ -620,78 +619,77 @@ span {
         height: 300px;
     }
     .card:hover{
-        width: 320px;
+        width: 200px;
     }
     .card-text {
-        font-size: 45px; /* Adjust text size for medium screens */
+        font-size: 40px; /* Adjust text size for medium screens */
     }
 }
 
 @media (max-width: 800px) {
     .card {
-        width: 160px;
+        width: 150px;
         height: 250px;
     }
     .card:hover{
-        width: 250px;
+        width: 160px;
     }
     .card-text {
-        font-size: 40px; /* Adjust text size for smaller screens */
+        font-size: 35px; /* Adjust text size for smaller screens */
     }
 }
 
 @media (max-width: 600px) {
     .card {
-        width: 140px;
+        width: 110px;
         height: 200px;
     }
     .card:hover{
-        width: 200px;
+        width: 120px;
     }
     .card-text {
-        font-size: 35px; /* Adjust text size for even smaller screens */
+        font-size: 30px; /* Adjust text size for even smaller screens */
     }
 }
 
 @media (max-width: 450px) {
     .card {
-        width: 120px;
-        height: 180px;
+        width: 80px;
+        height: 200px;
     }
     .card:hover{
-        width: 180px;
+        width: 90px;
     }
     .card-text {
-        font-size: 30px; /* Adjust text size for small mobile screens */
+        font-size: 25px; /* Adjust text size for small mobile screens */
     }
 }
 
 @media (max-width: 400px) {
     .card {
-        width: 100px;
-        height: 160px;
+        width: 70px;
+        height: 200px;
     }
     .card:hover{
-        width: 160px;
+        width: 80px;
     }
     .card-text {
-        font-size: 25px; /* Adjust text size for very small screens */
+        font-size: 20px; /* Adjust text size for very small screens */
     }
 }
 
 @media (max-width: 320px) {
     .card {
-        width: 80px;
-        height: 120px;
+        width: 60px;
+        height: 200px;
     }
     .card:hover{
-        width: 120px;
+        width: 65px;
     }
     .card-text {
-        font-size: 20px; /* Adjust text size for extremely small screens */
+        font-size: 15px; /* Adjust text size for extremely small screens */
     }
 }
-
 /*skills*/
 .skills {
     background: var(--bg-color);
