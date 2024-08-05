@@ -1076,6 +1076,7 @@ input[type="number"] {
     }
 
     .service-box {
+        width:200px;
         padding: 2rem 1rem;
         margin-bottom: 3rem;
     }
@@ -1186,6 +1187,7 @@ input[type="number"] {
     }
 
     .service-box {
+        width:180px;
         padding: 1.5rem 0.5rem; /* Adjust padding */
         margin-bottom: 2.5rem;
     }
@@ -1294,6 +1296,7 @@ input[type="number"] {
     }
 
     .service-box {
+        width:140px;
         padding: 1rem 0.5rem; /* Further adjust padding */
         margin-bottom: 2rem;
     }
