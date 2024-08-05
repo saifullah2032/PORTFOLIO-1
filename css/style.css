@@ -654,11 +654,11 @@ span {
 
 @media (max-width: 450px) {
     .card {
-        width: 70px;
-        height: 215px;
+        width: 60px;
+        height: 220px;
     }
     .card:hover{
-        width: 80px;
+        width: 70px;
     }
     .card-text {
         font-size: 25px; /* Adjust text size for small mobile screens */
@@ -667,11 +667,11 @@ span {
 
 @media (max-width: 400px) {
     .card {
-        width: 60px;
-        height: 215px;
+        width: 50px;
+        height: 220px;
     }
     .card:hover{
-        width: 70px;
+        width: 60px;
     }
     .card-text {
         font-size: 20px; /* Adjust text size for very small screens */
@@ -680,11 +680,11 @@ span {
 
 @media (max-width: 320px) {
     .card {
-        width: 50px;
-        height: 215px;
+        width: 40px;
+        height: 220px;
     }
     .card:hover{
-        width: 60px;
+        width: 50px;
     }
     .card-text {
         font-size: 15px; /* Adjust text size for extremely small screens */
